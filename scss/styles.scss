@@ -1,0 +1,12 @@
+@use './partials/variables';
+@use './partials/reset';
+@use './partials/header';
+@use './partials/main';
+@use './partials/footer';
+@use './partials/responsive';
+
+body {
+  font-family: variables.$font-stack;
+  line-height: 1.6;
+  padding: 20px;
+}

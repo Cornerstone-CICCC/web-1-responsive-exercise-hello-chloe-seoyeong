@@ -1,0 +1,32 @@
+@use './variables';
+
+main {
+  margin: 20px 0;
+
+  .intro {
+    margin-bottom: 20px;
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 10px 0;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    .card {
+      background-color: variables.$secondary-color;
+      color: white;
+      padding: 20px;
+      flex: 1;
+      min-width: 200px;
+      border-radius: 5px;
+      text-align: center;
+    }
+  }
+}
